@@ -1,0 +1,197 @@
+body{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container{
+    
+    height: 200px;
+    width: 600px;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    
+}
+.child{
+    
+    height:40px;
+    width: 20px;
+    border-radius: 7px;
+    
+}
+h3{
+    color: white;
+    background-color: black;
+}
+.container :nth-child(odd){
+    background-color: black;
+    
+}
+.container :nth-child(even){
+    background-color:violet;
+}
+img{
+    height: 50px;
+    border-radius: 100%;
+    animation-name: im;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+audio{
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    
+}
+@keyframes im {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+@keyframes a {
+    0%{
+        background-color: rgb(80, 80, 205);
+transform: scaleY(0);
+    }
+    50%{
+        background-color: rgb(166, 69, 198);
+transform: scaleY(5);
+    }
+    100%{
+        background-color: rgb(172, 172, 221);
+        transform: scaleY(0);
+    }
+}
+@keyframes b {
+    0%{
+        background-color:rgb(166, 69, 198) ;
+transform: scaleY(0);
+    }
+    50%{
+        background-color:rgb(80, 80, 205) ;
+transform: scaleY(5);
+    }
+    100%{
+        background-color:  rgb(172, 172, 221) ;
+        transform: scaleY(0);
+    }
+}
+@keyframes c {
+    0%{
+        background-color: rgb(172, 172, 221) ;
+transform: scaleY(0);
+    }
+    50%{
+        background-color:rgb(166, 69, 198) ;
+transform: scaleY(5);
+    }
+    100%{
+        background-color: rgb(80, 80, 205);
+        transform: scaleY(0);
+    }
+}
+@keyframes d {
+    0%{
+        background-color: rgb(80, 80, 205);
+transform: scaleY(0);
+    }
+    50%{
+        background-color:  rgb(172, 172, 221) ;
+transform: scaleY(5);
+    }
+    100%{
+        background-color:rgb(166, 69, 198) ;
+        transform: scaleY(0);
+    }
+}
+@keyframes e {
+    0%{
+        background-color: rgb(172, 172, 221);
+transform: scaleY(0);
+    }
+    50%{
+        background-color:rgb(166, 69, 198) ;
+transform: scaleY(5);
+    }
+    100%{
+        background-color:  rgb(80, 80, 205) ;
+        transform: scaleY(0);
+    }
+}
+@keyframes f {
+    0%{
+        background-color: rgb(80, 80, 205) ;
+transform: scaleY(0);
+    }
+    50%{
+        background-color:  rgb(172, 172, 221);
+transform: scaleY(4);
+    }
+    100%{
+        background-color:  rgb(186, 48, 232);
+        transform: scaleY(0);
+    }
+}
+
+
+.child10{
+    animation-name:a;
+   animation-duration: 1s;
+animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+}
+.child29{
+    animation-name:b;
+   animation-duration: 1s;
+animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 1.2s;
+}
+.child38{
+    animation-name:c;
+   animation-duration: 1s;
+animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 1.3s;
+}
+.child47{
+    animation-name:d;
+   animation-duration: 1s;
+animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 1.5s;
+}
+.child5{
+    animation-name:e;
+   animation-duration: 1s;
+animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 1.8s;
+}
+.child6{
+     animation-name:e;
+   animation-duration: 1s;
+animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 1.9s;
+
+}
+.child11{
+     animation-name:f;
+   animation-duration: 1s;
+animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 1.8s;
+
+}
